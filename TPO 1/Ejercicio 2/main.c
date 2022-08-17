@@ -3,14 +3,14 @@
 
 int main()
 {
-    int numero1,numero2,num1,num2,num3;
+    int n,m,num1,num2,num3;
     printf("Ingresa el primer numero: ");
-    numero1=leemayor();
+    n=leemayor(0);
     printf("Ingresa el segundo numero: ");
-    numero2=leemayor();
-    num1=funcionfactor(numero1);
-    num2=funcionfactor(numero2);
-    num3=funcionfactor(numero1-numero2);
+    m=leemayor(n);
+    num1=funcionfactor(m);
+    num2=funcionfactor(n);
+    num3=funcionfactor(m-n);
     cuenta(num1,num2,num3);
     return 0;
 }

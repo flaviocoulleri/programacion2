@@ -10,17 +10,13 @@ int leemayor(int mayor)
     }
     return numero;
 }
-int funcionfactor(int num)
+void funcion(int nat)
 {
-    int resu=num;
-    for(num--;num>=1;num--)
+    int aux=0,i;
+    for(i=nat;i>0;i--)
     {
-        resu*=num;
+        if((i%2)==0)
+        aux+=i;
     }
-    return resu;
-}
-void cuenta(int num1,int num2,int num3)
-{
-    int resu;
-    printf("El resultado es: %d",(num1/(num2*num3)));
+    printf("La suma de N numeros naturales pares es: %d",aux);
 }
