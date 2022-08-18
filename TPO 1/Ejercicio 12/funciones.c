@@ -12,11 +12,11 @@ int leemayor(int mayor)
 }
 void funcion(int nat)
 {
-    int aux=0,i=1;
-    while(i!=nat+1)
+    int aux=0,i;
+    for(i=nat;i>0;i--)
     {
-        aux+=2*i;
-        i++;
+        if((i%2)==0)
+        aux+=i;
     }
-    printf("La suma de N numeros primeros naturales pares es: %d",aux);
+    printf("La suma de N numeros naturales pares es: %d",aux);
 }

@@ -1,21 +1,11 @@
 # depslib dependency file v1.0
-1660772645 source:c:\users\user\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 10\main.c
+1660795756 source:c:\users\win10\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 11\main.c
 	<stdio.h>
 	"funciones.h"
 
-1660772645 c:\users\user\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 10\funciones.h
+1660795756 c:\users\win10\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 11\funciones.h
 	"funciones.c"
 
-1660772901 c:\users\user\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 10\funciones.c
-	<stdio.h>
-
-1660772645 source:c:\users\user\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 11\main.c
-	<stdio.h>
-	"funciones.h"
-
-1660772645 c:\users\user\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 11\funciones.h
-	"funciones.c"
-
-1660774705 c:\users\user\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 11\funciones.c
+1660796334 c:\users\win10\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 11\funciones.c
 	<stdio.h>
 
