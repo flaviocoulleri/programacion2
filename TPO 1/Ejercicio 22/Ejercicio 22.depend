@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1661359143 source:c:\users\win10\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 22\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1661358866 c:\users\win10\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 22\funciones.h
+	"funciones.c"
+
+1661359096 c:\users\win10\desktop\programacion (1100)\programacion2\tpo 1\ejercicio 22\funciones.c
+	<stdio.h>
+
