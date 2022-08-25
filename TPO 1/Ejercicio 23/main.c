@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "funciones.h"
 int main()
-{   int *puntero,valor,vec[5]={3,6,9,12,15};
+{   int *puntero,valor,vec[5]={5,10,15,20,25};
     puntero=&vec[0];
     printf("Ingrese valor 0 para terminar: ");
     scanf("%d",&valor);
