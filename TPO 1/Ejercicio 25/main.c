@@ -2,11 +2,14 @@
 #include <stdlib.h>
 #include "funciones.h"
 int main()
-{   int *puntero,posicion,vec[5]={5,10,15,20,25};
+{   int *puntero,vec[5]={5,10,15,20,25};
     puntero=&vec[0];
-    printf("Ingrese posicion: ");
-    scanf("%d",&posicion);
-    funcion(posicion,puntero);
+    for(int i=0;i<5;i++)
+    {
+        printf("%d\n",vec[i]);
+    }
+    printf("\n\n");
+    funcion(puntero);
     for(int i=0;i<5;i++)
     {
         printf("%d\n",vec[i]);

@@ -4,7 +4,9 @@ void funcion(int posicion,int* px)
 {
     int *aux;
     px+=(posicion-1);
-    for(posicion-1;posicion<5;posicion++)
+    *px=0;
+    posicion--;
+    for(posicion;posicion<5;posicion++)
     {
       aux=px;
       px++;
