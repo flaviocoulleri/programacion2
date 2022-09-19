@@ -1,7 +1,10 @@
 #ifndef FUNCIONES_H_INCLUDED
 #define FUNCIONES_H_INCLUDED
-#include"funciones.c"
+#include<stdio.h>
+#include<stdlib.h>
 void simetrico(int*);
+void llenarmatriz(int**);
+
 #endif // FUNCIONES_H_INCLUDED
 /*
 Desarrollar una función que determine si

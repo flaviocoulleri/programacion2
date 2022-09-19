@@ -1,11 +1,16 @@
 #include"funciones.h"
 int main()
 {
-    int orden,*px;
+    int orden,**px;
     printf("Ingresar orden de matriz: ");
     scanf("%d",&orden);
-    int matriz[orden][orden];
-    px=&matriz[0][0];
+    px=malloc(orden*orden*sizeof(int));
+    llenarmatriz(px);
+    printf("%d\n",*px);
+    **px++;
+    printf("%d",*px);
+//    int matriz[orden][orden];
+//    px=&matriz[0][0];
 
     return 0;
 }
