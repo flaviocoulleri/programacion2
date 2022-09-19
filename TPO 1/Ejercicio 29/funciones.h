@@ -1,8 +1,9 @@
 #ifndef FUNCIONES_H_INCLUDED
 #define FUNCIONES_H_INCLUDED
 #include"funciones.c"
-void diagonalprincipalsuma(int*,int);
-void diagonalsecundariasuma(int*pm,int n);
+void llenarmatriz(int**,int);
+void triangularsuperior(int**,int n);
+void triangularinferior(int**,int n);
 #endif // FUNCIONES_H_INCLUDED
 /*
 Desarrollar una función para que, dada una matriz cuadrada de reales de orden
