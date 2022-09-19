@@ -1,17 +1,10 @@
-#include "funciones.h"
+#include"funciones.h"
 int main()
-{
-    int orden,*px;
-    printf("Ingresar orden: ");
-    scanf("%d",&orden);
-    px=(int*)malloc(orden*orden*sizeof(int));
-    if (px==NULL)
-    {
-        return(-4);
-    }
-    llenarmatriz(&px,orden);
-    triangularsuperior(&px,orden);
-    triangularinferior(&px,orden);
-    free(px);
-    return 0;
+{	int matrix[100][100]={{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5}};
+	int *pm=&matrix[0][0],n;
+    printf("Ingresar n orden de matriz: ");
+    scanf("%d",&n);
+    diagonalprincipalsuma(pm,n);
+    diagonalsecundariasuma(pm,n);
+	return 0;
 }
